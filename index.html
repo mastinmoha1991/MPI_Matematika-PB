@@ -622,7 +622,7 @@
         // FUNGSI UTAMA INTEGRASI APPS SCRIPT
         function sendToGAS(payload) {
             if (!GAS_URL || GAS_URL.includes("https://script.google.com/macros/s/AKfycbyRuQAzAbMXJLyfk9LPu9v5PLYYxAIj5gkzp3RgmRZK8XL9J0qm_JWESuWMiuzkI61uxA/exec")) {
-                console.warn("GAS_URL belum diatur.");
+                console.warn("https://script.google.com/macros/s/AKfycbyRuQAzAbMXJLyfk9LPu9v5PLYYxAIj5gkzp3RgmRZK8XL9J0qm_JWESuWMiuzkI61uxA/exec.");
                 return;
             }
             fetch(GAS_URL, {
